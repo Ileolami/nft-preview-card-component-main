@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Karla&family=League+Spartan&family=Outfit:wght@300&display=swap');
+body{
+    background-color:hsl(217, 54%, 11%) ;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Outfit', sans-serif;
+}
+main{
+    display: grid;
+   place-content: center;
+    height: 100vh;
+    border-radius: 10px;
+    top: 0;
+    /*text-align: center;*/
+    background-color: hsl(216, 50%, 16%);
+    margin: 500px 400px;
+    padding: 0 30px ;
+}
+@media screen and (min-width: 378px) and (max-width: 767px){
+    main{
+        margin: 100px 100px 0 0;
+        padding: 0 30px;
+        max-height: 600px;
+        min-width:350px;
+        display: grid;
+        place-content: center;
+        border-radius: 10px;
+    }
+
+}   
+.image img{
+    max-width: 600px;
+    max-height: 230px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.amount-crypto{
+    display: flex;
+    gap: 50px;
+    font-weight: 400;
+}
+.mission{
+    color: hsl(215, 51%, 70%);
+}
+.number{
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-bottom: -24px;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+}
+.days{
+    color: hsl(215, 51%, 70%);
+}
+.creator{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    border-top:  1px solid hsl(215, 32%, 27%);
+    padding-top: 15px
+}
+.creator img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.creator p{
+    color: hsl(0, 0%, 100%);
+}
+.creator span{
+    color: hsl(215, 51%, 70%);
+}
