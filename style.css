@@ -13,7 +13,7 @@ main{
     top: 0;
     /*text-align: center;*/
     background-color: hsl(216, 50%, 16%);
-    margin: 500px 400px;
+    margin: 100px 400px;
     padding: 0 30px ;
 }
 @media screen and (min-width: 378px) and (max-width: 767px){
