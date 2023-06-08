@@ -16,6 +16,7 @@ body{
     background-color: hsl(216, 50%, 16%);
     margin: 100px 400px;
     padding: 0 30px ;
+    position: sticky;
 }
 }
 @media (max-width: 375px){
@@ -27,9 +28,10 @@ body{
         display: grid;
         place-content: center;
         border-radius: 10px;
+        position: relative;
     }
 }
-@media (min-width: 440px) and (max-width : 950px) {
+@media (min-width: 380px) and (max-width : 950px) {
     main{
         min-height: 100px;
         min-width : 400px;
@@ -40,6 +42,7 @@ body{
     max-height: 230px;
     border-radius: 10px;
     object-fit: cover;
+    position: relative;
 }
 .amount-crypto{
     display: flex;
