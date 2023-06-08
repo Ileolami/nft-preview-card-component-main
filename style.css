@@ -10,13 +10,13 @@ body{
     display: grid;
    place-content: center;
     height: 100vh;
-    border-radius: 10px;
+    border-radius: 15px;
     top: 0;
     /*text-align: center;*/
     background-color: hsl(216, 50%, 16%);
     margin: 100px 400px;
     padding: 0 30px ;
-    position: sticky;
+    position: relative;
 }
 }
 @media (max-width: 375px){
@@ -27,7 +27,7 @@ body{
         min-width:350px;
         display: grid;
         place-content: center;
-        border-radius: 10px;
+        border-radius: 15px;
         position: relative;
     }
 }
@@ -52,11 +52,24 @@ body{
 .mission{
     color: hsl(215, 51%, 70%);
 }
-.number{
+.number a{
     text-align: left;
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     margin-bottom: -24px;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%) ;
+}
+.creator a{
+    text-decoration: none;
+    color : hsl(0, 0%, 100%);
+}
+.creator a:hover{
+    cursor: pointer;
+    color:hsl(178, 100%, 50%) ;
 }
 .eth{
     color: hsl(178, 100%, 50%);
