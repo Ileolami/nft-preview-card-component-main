@@ -5,7 +5,8 @@ body{
     font-weight: 300;
     font-family: 'Outfit', sans-serif;
 }
-main{
+@media  screen and (max-width: 1440px) { 
+    main{
     display: grid;
    place-content: center;
     height: 100vh;
@@ -16,7 +17,8 @@ main{
     margin: 100px 400px;
     padding: 0 30px ;
 }
-@media screen and (min-width: 378px) and (max-width: 767px){
+}
+@media (max-width: 375px){
     main{
         margin: 100px 100px 0 0;
         padding: 0 30px;
@@ -26,8 +28,13 @@ main{
         place-content: center;
         border-radius: 10px;
     }
-
-}   
+}
+@media (min-width: 440px) and (max-width : 950px) {
+    main{
+        min-height: 100px;
+        min-width : 400px;
+    }
+}
 .image img{
     max-width: 600px;
     max-height: 230px;
